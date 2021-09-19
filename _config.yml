@@ -14,7 +14,7 @@ author: Jeff Jiang
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "关于作者"
+  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
