@@ -105,6 +105,16 @@ Any markdown or HTML file that you create will be available on your website unde
 
 Files you create inside the [`_posts`](./_posts) directory will be treated as blog entries. You can look at the existing files there to get an idea of how to write blog posts. Note the format of the blog post files - they must follow the naming convention of `YEAR-MONTH-DAY-title.md`. After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
 
+要向你的网站添加页面，你可以写一个markdown文件（.md），也可以写一个HTML文件。写markdown比写HTML容易得多，所以这是推荐的方法（如果你需要在5分钟内学会markdown，这里有一个很棒的教程）。
+
+要看一个markdown文件的例子，点击任何以.md结尾的文件，例如aboutme.md。在那个页面上，你可以看到一些格式很好的文本（有一个粗体字，一个链接，几个要点），如果你点击铅笔图标来编辑文件，你会看到生成这些漂亮文本的markdown代码。非常简单
+
+与此相反，看看tags.html。那是你写HTML的方式--没有那么漂亮。所以，如果你不懂HTML，就坚持使用markdown。
+
+你创建的任何markdown或HTML文件都可以在你的网站上的https://<yourusername>.github.io/<pagename>下获得。例如，如果你创建了一个文件about.md（或about.html），那么它将存在于https://<yourusername>.github.io/about。
+
+你在_posts目录下创建的文件将被视为博客条目。你可以看看那里的现有文件，了解如何写博文。注意博文文件的格式--它们必须遵循YEAR-MONTH-DAY-title.md的命名惯例。在你成功地添加自己的文章后，你可以删除_posts里面的现有文件，以删除样本文章，因为那些只是帮助你学习的演示文章。
+
 # Customizing parameters for each page
 
 **One last important thing**: In order to have your new pages use this template and not just be plain HTML pages, **you must add [YAML front matter](https://jekyllrb.com/docs/front-matter/) to the top of each page**:
