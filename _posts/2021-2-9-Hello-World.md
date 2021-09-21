@@ -1,7 +1,7 @@
 ---
-layout: mypost
+layout: post
 title: 测试｜Hello, world.
-categories: [随笔]
+tags: [随笔]
 ---
 
 这可以说是我的第一篇博客，也算是完成了童年的心愿——创建一个自己的网站。由于写博客涉及到Markdown语法，我目前还在学习中，不过因Markdown语言语法简单，现在是较为熟悉了，[点击这里](https://guides.github.com/features/mastering-markdown/)查看GitHub的官方Markdown语法文档。
